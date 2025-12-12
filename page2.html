@@ -1,24 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Minetips - Minecraft Survival Guide </title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  
+
   <div class="container">
     <header>
-    <div class="logo">⛏️ Minetips</div>
-    <div class="tagline">Your Ultimate Minecraft Survival Guide</div>
-   </header>
+      <div class="logo">⛏️ Minetips</div>
+      <div class="tagline">Your Ultimate Minecraft Survival Guide</div>
+    </header>
 
-   <nav class="nav-tabs">
-      <a href="index.html" class="tab-button"> 🏠 Survival Blocks </a> 
-      <a href=page2.html" class="tab-button active"> 🧪 Education Edition </a> 
-      <a href="page3.html" class="tab-button"> 🌍 Biomes Guide </a>
-   </nav>
+    <nav class="nav-tabs">
+      <a href="survivalblocks.html" class="tab-button"> 🏠 Survival Blocks </a>
+      <a href="educationedition.html" class="tab-button active"> 🧪 Education Edition </a>
+      <a href="biomeguide.html" class="tab-button"> 🌍 Biomes Guide </a>
+    </nav>
+
+    <main id="education" class="tab-content">
+      <h2 class="page-title">Education Edition Chemistry</h2><input type="text" class="search-bar"
+        placeholder="Search compounds..." onkeyup="searchBlocks('education')" aria-label="Search compounds">
+
+      <div class="grid" id="education-grid">
+        <div class="card">
+          <div class="card-title"><span class="block-icon" style="background: #1e90ff;"></span> Water
+          </div>
+          <div class="card-description">
+            The most essential compound for life! Used in countless chemical reactions and biological
+            processes.
+          </div>
+          <div class="compound-formula">
+            H₂O
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title"><span class="block-icon" style="background: #32cd32;"></span> Salt
+          </div>
+          <div class="card-description">
+            Common table salt used for preservation and chemical reactions. Essential for many laboratory
+            experiments.
+          </div>
+          <div class="compound-formula">
+            NaCl
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title"><span class="block-icon" style="background: #ff69b4;"></span> Soap
+          </div>
+          <div class="card-description">
+            Cleaning agent that helps remove dirt and germs. Demonstrates the properties of surfactants and
+            molecular interactions.
+          </div>
+          <div class="compound-formula">
+            C₁₈H₃₅NaO₂
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title"><span class="block-icon" style="background: #ffd700;"></span> Polyethylene
+          </div>
+          <div class="card-description">
+            Common plastic polymer used in bags and containers. Great example of how small molecules form
+            large structures.
+          </div>
+          <div class="compound-formula">
+            (C₂H₄)ₙ
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title"><span class="block-icon" style="background: #ff4500;"></span> Rust
+          </div>
+          <div class="card-description">
+            Iron oxide formed when iron reacts with oxygen and water. Perfect example of oxidation
+            reactions.
+          </div>
+          <div class="compound-formula">
+            Fe₂O₃
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title"><span class="block-icon" style="background: #9370db;"></span> Ammonia
+          </div>
+          <div class="card-description">
+            Important compound used in fertilizers and cleaning products. Demonstrates basic chemical
+            bonding principles.
+          </div>
+          <div class="compound-formula">
+            NH₃
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title"><span class="block-icon" style="background: #20b2aa;"></span> Calcium
+            Carbonate
+          </div>
+          <div class="card-description">
+            Found in limestone, marble, and chalk. Important in construction and demonstrates ionic bonding.
+          </div>
+          <div class="compound-formula">
+            CaCO₃
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title"><span class="block-icon" style="background: #dc143c;"></span> Benzene
+          </div>
+          <div class="card-description">
+            Aromatic hydrocarbon that demonstrates ring structures and resonance in organic chemistry.
+          </div>
+          <div class="compound-formula">
+            C₆H₆
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="footer-content">
+          ⛏️ Minetips - Your trusted companion for Minecraft adventures
+        </div>
+        <div class="footer-links">
+          <a href="#" target="_blank" rel="noopener noreferrer">Community</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">Guides</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">Updates</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">Contact</a>
+        </div>
+        <div class="footer-copyright">
+          © 2024 Minetips. Not affiliated with Mojang or Microsoft. Minecraft is a trademark of Mojang AB.
+        </div>
+      </footer>
+  </div>
 
 </body>
+
 </html>
