@@ -92,7 +92,7 @@ header {
     margin-bottom: 30px;
 }
 
-.card{
+.card {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     padding: 20px;
@@ -100,7 +100,7 @@ header {
     border: 1px solid rgba(74, 222, 128, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-    
+
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(74, 222, 128, 0.2);
@@ -172,8 +172,19 @@ footer {
     font-size: 1rem;
     backdrop-filter: blur(10px);
     display: block;
-}    
+}
 
 .search-bar::placeholder {
     color: #a3e635;
+}
+
+.compound-formula {
+    background: rgba(139, 92, 246, 0.2);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-family: 'Courier New', monospace;
+    color: #c4b5fd;
+    margin-top: 10px;
+    border-left: 3px solid #8b5cf6;
+    word-wrap: break-word;
 }
