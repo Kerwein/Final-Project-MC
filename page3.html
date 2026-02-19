@@ -1,24 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Minetips - Minecraft Survival Guide </title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  
+
   <div class="container">
     <header>
-    <div class="logo">⛏️ Minetips</div>
-    <div class="tagline">Your Ultimate Minecraft Survival Guide</div>
-   </header>
+      <div class="logo">⛏️ Minetips</div>
+      <div class="tagline">Your Ultimate Minecraft Survival Guide</div>
+    </header>
 
-   <nav class="nav-tabs">
-      <a href="index.html" class="tab-button"> 🏠 Survival Blocks </a> 
-      <a href="page2.html" class="tab-button"> 🧪 Education Edition </a> 
+    <nav class="nav-tabs">
+      <a href="index.html" class="tab-button"> 🏠 Survival Blocks </a>
+      <a href="page2.html" class="tab-button"> 🧪 Education Edition </a>
       <a href="page3.html" class="tab-button active"> 🌍 Biomes Guide </a>
-   </nav>
+    </nav>
+    </main>
+    <main id="biomes" class="tab-content">
+      <h1 class="page-title">Minecraft Biomes Guide</h1><input type="text" class="search-bar"
+        placeholder="Search biomes..." onkeyup="searchBlocks('biomes')" aria-label="Search biomes">
 
+      <div class="grid" id="biomes-grid">
+        <div class="card">
+          <div class="card-title"><span class="block-icon" style="background: #228b22;"></span> Plains
+          </div>
+          <div class="card-description">
+            Flat, grassy terrain perfect for beginners. Ideal for building and farming with plenty of space.
+          </div>
+          <div class="biome-info">
+            <div class="info-section">
+              <div class="info-title">
+                🧱 Blocks
+              </div>
+              <div class="info-list">
+                Grass Block, Dirt, Stone, Oak Wood
+              </div>
+            </div>
+            <div class="info-section">
+              <div class="info-title">
+                🐾 Mobs
+              </div>
+              <div class="info-list">
+                Cows, Pigs, Sheep, Chickens, Horses
+              </div>
+            </div>
+            <div class="info-section">
+              <div class="info-title">
+                ⚙️ Mechanics
+              </div>
+              <div class="info-list">
+                Villages spawn, Great for farming, Flat building area
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title"><span class="block-icon" style="background: #8b4513;"></span> Forest
+          </div>
+          <div class="card-description">
+            Dense with oak and birch trees. Excellent source of wood and peaceful atmosphere for building.
+          </div>
+          <div class="biome-info">
+            <div class="info-section">
+              <div class="info-title">
+                🧱 Blocks
+              </div>
+              <div class="info-list">
+                Oak/Birch Wood, Leaves, Grass, Flowers
+              </div>
+            </div>
+            <div class="info-section">
+              <div class="info-title">
+                🐾 Mobs
+              </div>
+              <div class="info-list">
+                Wolves, Passive mobs, Spiders at night
+              </div>
+            </div>
+            <div class="info-section">
+              <div class="info-title">
+                ⚙️ Mechanics
+              </div>
+              <div class="info-list">
+                Abundant wood, Wolf taming, Dense tree coverage
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title"><span class="block-icon" style="background: #ffd700;"></span> Desert
+          </div>
+          <div class="card-description">
+            Sandy wasteland with unique structures. Hot and dry with valuable resources hidden beneath.
+          </div>
+          <div class="biome-info">
+            <div class="info-section">
+              <div class="info-title">
+                🧱 Blocks
+              </div>
+              <div class="info-list">
+                Sand, Sandstone, Cactus, Dead Bush
+              </div>
+            </div>
+            <div class="info-section">
+              <div class="info-title">
+                🐾 Mobs
+              </div>
+              <div class="info-list">
+                Rabbits, Husks, Endermen
+              </div>
+            </div>
+            <div class="info-section">
+              <div class="info-title">
+                ⚙️ Mechanics
+              </div>
+              <div class="info-list">
+                Desert temples, Villages, No rain, Cactus farming
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title"><span class="block-icon" style="background: #4169e1;"></span> Ocean
+          </div>
+          <div class="card-description">
+            Vast water bodies teeming with marine life. Explore underwater ruins and monuments.
+          </div>
+          <div class="biome-info">
+            <div class="info-section">
+              <div class="info-title">
+                🧱 Blocks
+              </div>
+              <div class="info-list">
+                Water, Sand, Gravel, Prismarine
+              </div>
+            </div>
+            <div class="info-section">
+              <div class="info-title">
+                🐾 Mobs
+              </div>
+              <div class="info-list">
+                Fish, Dolphins, Guardians, Drowned
+              </div>
+            </div>
+            <div class="info-section">
+              <div class="info-title">
+                ⚙️ Mechanics
+              </div>
+              <div class="info-list">
+                Ocean monuments, Shipwrecks, Underwater breathing needed
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title"><span class="block-icon" style="background: #ffffff;"></span> Snowy Tundra
+          </div>
+          <div class="card-description">
+            Frozen landscape covered in snow and ice. Challenging survival with unique cold-weather
+            mechanics.
+          </div>
+          <div class="biome-info">
+            <div class="info-section">
+              <div class="info-title">
+                🧱 Blocks
+              </div>
+              <div class="info-list">
+                Snow, Ice, Packed Ice, Spruce Wood
+              </div>
+            </div>
+            <div class="info-section">
+              <div class="info-title">
+                🐾 Mobs
+              </div>
+              <div class="info-list">
+                Polar Bears, Strays, Rabbits
+              </div>
+            </div>
+            <div class="info-section">
+              <div class="info-title">
+                ⚙️ Mechanics
+              </div>
+              <div class="info-list">
+                Water freezes, Snow accumulation, Igloos spawn
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title"><span class="block-icon" style="background: #8b0000;"></span> Nether
+          </div>
+          <div class="card-description">
+            Hellish dimension filled with lava and dangerous mobs. Essential for advanced progression.
+          </div>
+          <div class="biome-info">
+            <div class="info-section">
+              <div class="info-title">
+                🧱 Blocks
+              </div>
+              <div class="info-list">
+                Netherrack, Lava, Nether Quartz, Glowstone
+              </div>
+            </div>
+            <div class="info-section">
+              <div class="info-title">
+                🐾 Mobs
+              </div>
+              <div class="info-list">
+                Ghasts, Blazes, Zombie Pigmen, Wither Skeletons
+              </div>
+            </div>
+            <div class="info-section">
+              <div class="info-title">
+                ⚙️ Mechanics
+              </div>
+              <div class="info-list">
+                No water, Nether fortresses, Fast travel, Fire resistance needed
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
 </body>
+
 </html>
