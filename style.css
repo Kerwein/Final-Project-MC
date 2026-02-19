@@ -3,14 +3,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #2c5530 0%, #1a3d1f 100%);
-    color: #ffffff;
+    background: linear-gradient(180deg, #1e3a1f 0%, #0f1a10 100%);
     min-height: 100%;
     width: 100%;
-}
-
-* {
-    box-sizing: border-box;
 }
 
 .container {
@@ -69,7 +64,9 @@ header {
 }
 
 .tab-button.active {
-    background: #4ade80;
+    background: #fbbf24;
+    color: #1a2e05;
+    border-color: #f59e0b;
 }
 
 .tab-content.active {
@@ -93,11 +90,11 @@ header {
 }
 
 .card {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.4);
     border-radius: 12px;
     padding: 20px;
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(74, 222, 128, 0.3);
+    border: 1px solid  #3f6212;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -188,3 +185,25 @@ footer {
     border-left: 3px solid #8b5cf6;
     word-wrap: break-word;
 }
+
+.info-section {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin: 5px;
+    border-radius: 8px;
+    border-left: 3px solid #f59e0b;
+}
+
+.info-title {
+    font-weight: bold;
+    color: #fbbf24;
+    margin-bottom: 8px;
+}
+
+.info-list {
+    color: #d1d5db;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    word-wrap: break-word;
+}   
+
