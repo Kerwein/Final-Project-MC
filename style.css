@@ -2,8 +2,8 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(180deg, #1e3a1f 0%, #0f1a10 100%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: radial-gradient( #0ad2d5 0%, #000000 100%);
     min-height: 100%;
     width: 100%;
 }
